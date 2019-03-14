@@ -2,9 +2,9 @@
 	 README.md
 -->
 
-# **Animal Trading Card 
+# **Animal Trading Card ** #
 
-* [Preview](https://rrcanlas.github.io/AnimAL-trAding-cArd/)** #
+* [Preview](https://rrcanlas.github.io/AnimAL-trAding-cArd/)
 
 * Overview 
 
