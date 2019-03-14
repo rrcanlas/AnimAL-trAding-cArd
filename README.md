@@ -6,7 +6,8 @@
 
 ## Overview  
 
-   Second exercise as a front-end developer student in [UDACITY](https://www.udacity.com).  
+   Second exercise as a front-end developer student in [UDACITY](https://www.udacity.com).    
+  
   [Preview](https://rrcanlas.github.io/AnimAL-trAding-cArd/) 
 	
 ## Created using:  
