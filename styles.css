@@ -1,0 +1,215 @@
+/*      By Rose Renie 
+   U D A C I T Y - Project 2
+        April 1, 2018         */ 
+
+/* add your CSS here */
+
+
+/* background elements (flowers) */
+
+body{
+    background-image: url("https://s19.postimg.cc/wccq8qq4j/yard.png");
+    background-size: 604px 604px;
+    background-repeat: repeat;
+    background-position:40px 10px;  
+}
+
+
+/* border around animal’s name, image, and information */
+
+/* outside border */
+
+.border-outer {
+    border: 3px solid #1a65a8;
+    border-radius: 10px;    
+    width: 322px;
+    height:610px;
+    position: relative;
+    left: 455px;
+    top: 0;
+    padding: 10px 10px;
+    -webkit-box-shadow: 16px 16px 0px -5px rgba(26, 101, 168,1);
+    -moz-box-shadow: 16px 16px 0px -5px rgba(26, 101, 168,1);
+    box-shadow: 10px 10px 0px -5px rgba(26, 101, 168,1);
+}
+
+
+/* border on pet's name */
+
+.border-name {
+      border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    width: 307px;
+    height:52px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    margin: 1px, 2px, 0;   
+    padding: 4px;
+}
+
+
+/* elements on pet's name (animation, font..) */
+
+h1 { 
+    font-family: Henny Penny, sans-serif;
+    font-size: 30px;   
+    text-shadow: 4px 4px 4px #aaa;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    background-color: #d3d3d3;
+    background-size: auto;  
+    position: static;     
+    left: 5px;
+    top: 10px;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0;
+    text-align:  center;   
+}
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove { /*  pet's name animation */
+    from {color: white;}
+    to {color: #1a65a8;}
+}
+
+
+/* Standard syntax */
+
+@keyframes mymove { /*  pet's name animation*/
+    from {color: white;}
+    to {color: #1a65a8;;}
+}
+
+
+/* border on image */
+
+.border-image {
+    background-color: #1a65a8;
+    position: absolute;
+    top: 85px;
+    left: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    width: 298px;
+    height:207px;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 120px;
+    text-align: center;
+}
+
+
+/* elements on image */
+
+.hamster-image {
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    
+      border-radius: 10px 10px;
+    background-color: white; 
+}
+
+
+/* border on information (interesting fact, list items, and description) */
+
+.border-facts {
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  width: 300px;
+  height: 292px;
+  padding: 10px;
+  padding-top: 0px; 
+  position: absolute;
+    top: 315px;
+  left: 10px; 
+  background-color: #1a65a8;  
+}
+
+
+/* elements on interesting facts & description */
+
+.hamster-interesting-fact,
+p {
+    font-family: 'Rochester', cursive;
+    line-height: 18px;
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+}
+
+
+/* italicize animal’s interesting fact */
+
+.hamster-interesting-fact { 
+    margin-top: 10px;
+    position: static;   
+    font-style: italic;
+    padding: 0;     
+}
+
+
+/* bolded labels for the animal’s list items */
+
+.list { 
+    margin-left: 5px;
+    padding-left: 0;
+    font-weight: bold;      
+}
+
+
+/* color on the list */
+
+li {
+    color: white;
+}
+
+
+/* removing the dots from the list */
+
+.dots { 
+    padding-left:0;
+    list-style-type: none;
+}
+
+
+/* animal description */
+
+p {
+    position: static;
+    top: 373px;
+  left: 480px;
+}
+
+
+/* element on the Link (more info) */
+
+a:link {
+    color: red;
+    font-family: 'Henny Penny', sans-serif;      
+    font-size: 15px;
+    position: absolute;
+    top: 266px;
+    left: 110px;    
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
