@@ -14,6 +14,6 @@
 
    HTML  
    CSS  
-   Google Fonts - [Henny+Penny](https://fonts.googleapis.com/css?family=Henny+Penny&effect=shadow-multiple)  
+   Google Fonts - [Henny+Penny](https://fonts.google.com/specimen/Henny+Penny)  
    [Post Image](https://postimg.cc/gallery/y9xcinu8/)     
    [EOL website](http://eol.org/pages/1179513/overview)    
